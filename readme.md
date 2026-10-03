@@ -1,3 +1,7 @@
+The instructions below do not work. There are missing files and copy instructions. Elecrow have provided a Bookworm image that functions 
+(https://drive.google.com/file/d/11cD6NDc93rNiuJtBJ9wSB34deXeKxy-h/view?usp=sharing). 
+Use terminal and sudo raspi-config to reset unknown password. Only SSD1 displays and it is labelled 'ROM'.
+
 **Before configuration, please download the entire PiTowerGen2 file to your local system and place it on your desktop.**
 
 Pi5 Configuration Steps:
