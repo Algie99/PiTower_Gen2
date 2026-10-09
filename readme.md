@@ -1,8 +1,8 @@
 The instructions below do not work. There are missing files, dependencies, and copy instructions. They are a work in progress not a finished release.
 
-Elecrow have provided a Bookworm image that functions (https://drive.google.com/file/d/11cD6NDc93rNiuJtBJ9wSB34deXeKxy-h/view?usp=sharing). Use raspi-config to reset unknown password. Only SSD1 displays and it is labelled 'ROM'.
+Elecrow have provided a Bookworm image that functions (https://drive.google.com/file/d/11cD6NDc93rNiuJtBJ9wSB34deXeKxy-h/view?usp=sharing). Use raspi-config to reset unknown password. Only SSD1 displays and it is labelled 'ROM'. This image cannot be successfully upgraded to Trixie.
 
-If you would like to get the front display working whilst Elecrow locate or finish their Trixie install the extra steps are below. Please be aware that the final installation may be totally different.
+If you would like to get the front display working whilst Elecrow locate or finish their Trixie install the extra steps are below. Use the files and instructions in this archive as I have not confirmed the files on Bookworm image desktop are the same.There is an interesting Chinese readme amongst the Bookworm files that when translated details a completely different set of files with an installer. Please be aware that the final installation may be totally different. 
 
 **Extra Steps**
 
