@@ -1,4 +1,13 @@
-The instructions below do not work. There are missing files and copy instructions. Elecrow have provided a Bookworm image that functions (https://drive.google.com/file/d/11cD6NDc93rNiuJtBJ9wSB34deXeKxy-h/view?usp=sharing). Use raspi-config to reset unknown password. Only SSD1 displays and it is labelled 'ROM'.
+The instructions below do not work. There are missing files and copy instructions. Elecrow have provided a Bookworm image that functions (https://drive.google.com/file/d/11cD6NDc93rNiuJtBJ9wSB34deXeKxy-h/view?usp=sharing). Use raspi-config to reset unknown password. Only SSD1 displays and it is labelled 'ROM'. If you would like to get the front display working whilst Elecrow locate or finish their Trixie install the extra steps are below. Please be aware that the final installation may be totally different.
+
+**Extra Steps**
+
+Copy /PiTower_Gen2-master/PiTowerGen2/LCD_Module_RPI_code/RaspberryPi/python/pic/LCD_2inch8.png to /home/pi/Pictures
+
+Download bj-03.png and copy to /home/pi/Pictures
+
+Open lcd_display.py in a text editor and change line 131 disk_title_text = f"ROM:" to  disk_title_text = f"SSD:"
+
 
 **Before configuration, please download the entire PiTowerGen2 file to your local system and place it on your desktop.**
 
